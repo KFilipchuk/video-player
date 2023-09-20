@@ -8,5 +8,3 @@ selectElement?.addEventListener('change', (e: Event) => {
 
     VideoPlayer.load(target.value as PlayerExtensions)
 })
-
-VideoPlayer.load(PlayerExtensions.MP4)
